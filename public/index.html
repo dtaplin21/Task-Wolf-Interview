@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker News Scraper - QA Wolf Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-spider"></i>
+                    <h1>Web Scraper</h1>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="scraper-section">
+                <div class="scraper-header">
+                    <h2>Web Scraper</h2>
+                    <p>Enter any URL below and click scrape to extract data using Playwright. For Hacker News, it will validate that exactly 100 articles are sorted from newest to oldest.</p>
+                </div>
+
+                <div class="scraper-controls">
+                    <div class="input-group">
+                        <label for="targetUrl">Target URL</label>
+                        <div class="input-container">
+                            <input type="text" id="targetUrl" value="https://news.ycombinator.com/newest" placeholder="https://example.com">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="url-presets">
+                            <button type="button" class="preset-btn" data-url="https://news.ycombinator.com/newest">Hacker News</button>
+                            <button type="button" class="preset-btn" data-url="https://news.ycombinator.com">Hacker News Home</button>
+                            <button type="button" class="preset-btn" data-url="https://reddit.com/r/programming">Reddit Programming</button>
+                        </div>
+                    </div>
+                    <button class="scrape-button" id="scrapeButton">
+                        <i class="fas fa-play"></i>
+                        <span>Start Scraping</span>
+                    </button>
+                </div>
+
+                <!-- Progress Section -->
+                <div class="progress-section" id="progressSection" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="progress-text" id="progressText">Initializing...</div>
+                </div>
+
+                <!-- Results Section -->
+                <div class="results-section" id="resultsSection" style="display: none;">
+                    <h3>Validation Results</h3>
+                    <div class="results-content" id="resultsContent"></div>
+                </div>
+
+                <!-- Logs Section -->
+                <div class="logs-section" id="logsSection" style="display: none;">
+                    <h3>Execution Logs</h3>
+                    <div class="logs-container">
+                        <div class="logs-content" id="logsContent"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>QA Wolf Take-Home Assignment - Web Scraper with Playwright</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

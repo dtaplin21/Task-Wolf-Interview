@@ -1,59 +1,155 @@
-# 🐺 QA Wolf Take Home Assignment
+# 🐺 QA Wolf Take Home Assignment - Enhanced with Web Interface
 
-Welcome to the QA Wolf take home assignment for our [QA Engineer](https://www.task-wolf.com/apply-qae) role! We appreciate your interest and look forward to seeing what you come up with.
+Welcome to the enhanced QA Wolf take home assignment! This project now includes a modern web interface inspired by the web scraper application you saw.
 
-## Instructions
+## 🚀 Quick Start
 
-This assignment has two questions as outlined below. When you are done, upload your assignment to our [application page](https://www.task-wolf.com/apply-qae):
+### Prerequisites
+- Node.js (v14 or higher)
+- npm
 
+### Installation & Setup
 
-### Question 1
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-In this assignment, you will create a script on [Hacker News](https://news.ycombinator.com/) using JavaScript and Microsoft's [Playwright](https://playwright.dev/) framework. 
+2. **Start the web interface:**
+   ```bash
+   npm start
+   ```
 
-1. Install node modules by running `npm i`.
+3. **Open your browser:**
+   Navigate to `http://localhost:3000`
 
-2. Edit the `index.js` file in this project to go to [Hacker News/newest](https://news.ycombinator.com/newest) and validate that EXACTLY the first 100 articles are sorted from newest to oldest. You can run your script with the `node index.js` command.
+### Alternative: Run Scraper Directly
+```bash
+npm run scrape
+```
 
-Note that you are welcome to update Playwright or install other packages as you see fit, however you must utilize Playwright in this assignment.
+## 🎯 Assignment Requirements
 
-### Question 2
+### Question 1 - Enhanced Implementation
 
-Why do you want to work at QA Wolf? Please record a short, ~2 min video using [Loom](https://www.loom.com/) that includes:
+The original assignment has been enhanced with:
 
-1. Your answer 
+1. **Modern Web Interface**: A beautiful, responsive web UI inspired by modern web scraper applications
+2. **Real-time Progress Tracking**: Visual progress bar and status updates
+3. **Dark/Light Theme**: Toggle between themes with persistent preferences
+4. **Structured Results**: Clean, formatted output display
+5. **Error Handling**: Comprehensive error reporting and user feedback
 
-2. A walk-through demonstration of your code, showing a successful execution
+**Core Functionality:**
+- Navigates to [Hacker News/newest](https://news.ycombinator.com/newest)
+- Validates that EXACTLY 100 articles are sorted from newest to oldest
+- Uses Playwright for web automation
+- Handles pagination to collect sufficient articles
+- Provides detailed validation results
 
-The answer and walkthrough should be combined into *one* video, and must be recorded using Loom as the submission page only accepts Loom links.
+### Question 2 - Video Submission
 
-## Frequently Asked Questions
+Please record a ~2 min video using [Loom](https://www.loom.com/) that includes:
 
-### What is your hiring process? When will I hear about next steps?
+1. Your answer to why you want to work at QA Wolf
+2. A walk-through demonstration of the enhanced web interface
+3. Show successful execution of the scraper
 
-This take home assignment is the first step in our hiring process, followed by a final round interview if it goes well. **We review every take home assignment submission and promise to get back to you either way within two weeks (usually sooner).** The only caveat is if we are out of the office, in which case we will get back to you when we return. If it has been more than two weeks and you have not heard from us, please do follow up.
+## 🏗️ Project Structure
 
-The final round interview is a 2-hour technical work session that reflects what it is like to work here. We provide a $150 stipend for your time for the final round interview regardless of how it goes. After that, there may be a short chat with our director about your experience and the role.
+```
+qa_wolf_take_home/
+├── public/
+│   ├── index.html          # Main web interface
+│   ├── styles.css          # Modern CSS styling
+│   └── script.js           # Frontend JavaScript
+├── index.js                # Enhanced Playwright scraper
+├── server.js               # Express server for web interface
+├── package.json            # Dependencies and scripts
+├── playwright.config.js    # Playwright configuration
+└── README.md              # This file
+```
 
-Our hiring process is rolling where we review candidates until we have filled our openings. If there are no openings left, we will keep your contact information on file and reach out when we are hiring again.
+## ✨ Features
 
-### Having trouble uploading your assignment?
-Be sure to delete your `node_modules` file, then zip your assignment folder prior to upload. 
+### Web Interface Features
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **Theme Toggle**: Switch between light and dark modes
+- **Progress Tracking**: Real-time progress updates during scraping
+- **Results Display**: Formatted output with syntax highlighting
+- **Error Handling**: User-friendly error messages
+- **Loading States**: Visual feedback during operations
 
-### How do you decide who to hire?
+### Scraper Enhancements
+- **Modular Architecture**: Clean, maintainable code structure
+- **Comprehensive Error Handling**: Try-catch blocks throughout
+- **Detailed Logging**: Step-by-step progress reporting
+- **Configuration Management**: Centralized settings
+- **Robust Pagination**: Handles multiple pages reliably
+- **Timestamp Parsing**: Supports both ISO and relative time formats
 
-We evaluate candidates based on three criteria:
+## 🛠️ Technical Implementation
 
-- Technical ability (as demonstrated in the take home and final round)
-- Customer service orientation (as this role is customer facing)
-- Alignment with our mission and values (captured [here](https://qawolf.notion.site/Mission-and-Values-859c7d0411ba41349e1b318f4e7abc8f))
+### Backend (Node.js + Express)
+- Serves static files and API endpoints
+- Spawns Playwright processes
+- Parses scraper output into structured data
+- Handles errors gracefully
 
-This means whether we hire you is based on how you do during our interview process, not on your previous experience (or lack thereof). Note that you will also need to pass a background check to work here as our customers require this.
+### Frontend (Vanilla JavaScript)
+- Modern ES6+ JavaScript
+- CSS Grid and Flexbox layouts
+- Local storage for theme preferences
+- Fetch API for backend communication
 
-### How can I help my application stand out?
+### Playwright Integration
+- Headless browser automation
+- Robust element selection and waiting
+- Multi-page navigation
+- Comprehensive data extraction
 
-While the assignment has clear requirements, we encourage applicants to treat it as more than a checklist. If you're genuinely excited about QA Wolf, consider going a step further—whether that means building a simple user interface, adding detailed error handling or reporting, improving the structure of the script, or anything else that showcases your unique perspective.
+## 🎨 Design Philosophy
 
-There's no "right" answer—we're curious to see what you choose to do when given freedom and ambiguity. In a world where tools can help generate working code quickly and make it easier than ever to complete technical take-homes, we value originality and intentionality. If that resonates with you, use this assignment as a chance to show us how you think.
+The interface follows modern web design principles:
+- **Clean & Minimal**: Focus on functionality without clutter
+- **Accessible**: Proper contrast ratios and keyboard navigation
+- **Responsive**: Adapts to different screen sizes
+- **Intuitive**: Clear visual hierarchy and user flow
 
-Applicants who approach the assignment as a creative challenge, not just a checklist, tend to perform best in our process.
+## 🔧 Development
+
+### Available Scripts
+- `npm start` - Start the web server
+- `npm run scrape` - Run scraper directly (command line)
+- `npm run dev` - Development mode (same as start)
+
+### Customization
+- Modify `public/styles.css` for styling changes
+- Update `public/script.js` for frontend behavior
+- Adjust `server.js` for backend modifications
+- Enhance `index.js` for scraper improvements
+
+## 📝 Submission
+
+When ready to submit:
+
+1. **Delete node_modules**: `rm -rf node_modules`
+2. **Zip the project folder**
+3. **Upload to the application page**: [QA Wolf Application](https://www.task-wolf.com/apply-qae)
+4. **Include your Loom video** with the walkthrough
+
+## 🌟 Going Above and Beyond
+
+This enhanced implementation demonstrates:
+- **Full-stack development** skills
+- **Modern web technologies** proficiency
+- **User experience** consideration
+- **Code organization** and maintainability
+- **Error handling** and robustness
+- **Responsive design** principles
+
+The web interface makes the assignment more engaging and showcases additional technical skills beyond the core Playwright requirements.
+
+---
+
+**Note**: This is a development preview. The web interface is designed to demonstrate technical capabilities and provide a better user experience for testing the scraper functionality.
