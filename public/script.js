@@ -4,6 +4,10 @@ class HackerNewsScraper {
         this.initializeElements();
         this.bindEvents();
         this.initializeTheme();
+
+        this.activeRankingId = null;
+        this.feedbackArticles = [];
+=======
         this.loadRankedArticles();
     }
 
@@ -18,6 +22,12 @@ class HackerNewsScraper {
         this.progressText = document.getElementById('progressText');
         this.resultsSection = document.getElementById('resultsSection');
         this.resultsContent = document.getElementById('resultsContent');
+        this.feedbackSection = document.getElementById('feedbackSection');
+        this.feedbackForm = document.getElementById('feedbackForm');
+        this.articlePositionSelect = document.getElementById('articlePositionSelect');
+        this.feedbackNotes = document.getElementById('feedbackNotes');
+        this.feedbackStatus = document.getElementById('feedbackStatus');
+        this.feedbackList = document.getElementById('feedbackList');
         this.logsSection = document.getElementById('logsSection');
         this.logsContent = document.getElementById('logsContent');
         this.themeToggle = document.getElementById('themeToggle');
@@ -39,10 +49,14 @@ class HackerNewsScraper {
         this.presetButtons.forEach(button => {
             button.addEventListener('click', () => this.selectPresetUrl(button));
         });
-        
+
         // Bind input validation
         this.targetUrlInput.addEventListener('input', () => this.validateUrl());
         this.targetUrlInput.addEventListener('blur', () => this.validateUrl());
+
+        if (this.feedbackForm) {
+            this.feedbackForm.addEventListener('submit', (event) => this.submitFeedback(event));
+        }
     }
 
     /**
@@ -247,6 +261,7 @@ class HackerNewsScraper {
     clearResults() {
         this.resultsContent.textContent = '';
         this.resultsSection.style.display = 'none';
+        this.resetFeedbackUI();
     }
 
     /**
@@ -258,22 +273,260 @@ class HackerNewsScraper {
     }
 
     /**
+     * Reset feedback UI state
+     */
+    resetFeedbackUI() {
+        this.activeRankingId = null;
+        this.feedbackArticles = [];
+
+        if (this.feedbackSection) {
+            this.feedbackSection.style.display = 'none';
+        }
+
+        if (this.feedbackForm) {
+            this.feedbackForm.reset();
+        }
+
+        if (this.articlePositionSelect) {
+            this.articlePositionSelect.innerHTML = '';
+        }
+
+        if (this.feedbackStatus) {
+            this.feedbackStatus.textContent = '';
+            this.feedbackStatus.className = 'feedback-status';
+        }
+
+        if (this.feedbackList) {
+            this.feedbackList.innerHTML = '';
+        }
+    }
+
+    /**
      * Display scraping results
      * @param {Object} results - Results from the scraper
      */
     displayResults(results) {
         this.resultsSection.style.display = 'block';
-        
+
         let output = '';
-        
+
         if (results.success) {
             output += this.formatSuccessResults(results);
         } else {
             output += this.formatErrorResults(results);
         }
-        
+
         this.resultsContent.textContent = output;
         this.resultsContent.scrollTop = 0;
+
+        if (results.success) {
+            this.showFeedbackSection(results);
+        }
+    }
+
+    /**
+     * Display feedback controls when ranking data is available
+     * @param {Object} results
+     */
+    showFeedbackSection(results) {
+        if (!this.feedbackSection) {
+            return;
+        }
+
+        this.activeRankingId = results.rankingId || null;
+        this.feedbackArticles = Array.isArray(results.articles) ? results.articles : [];
+
+        if (!this.activeRankingId || this.feedbackArticles.length === 0) {
+            this.resetFeedbackUI();
+            return;
+        }
+
+        this.feedbackSection.style.display = 'block';
+        this.populateFeedbackOptions(this.feedbackArticles);
+        this.setFeedbackStatus('', '');
+        this.loadFeedbackEntries();
+    }
+
+    /**
+     * Populate feedback dropdown with articles
+     * @param {Array} articles
+     */
+    populateFeedbackOptions(articles) {
+        if (!this.articlePositionSelect) {
+            return;
+        }
+
+        this.articlePositionSelect.innerHTML = '';
+
+        articles.forEach(article => {
+            const option = document.createElement('option');
+            option.value = article.position;
+            option.textContent = `#${article.position} · ${article.title}`;
+            this.articlePositionSelect.appendChild(option);
+        });
+
+        if (this.articlePositionSelect.options.length > 0) {
+            this.articlePositionSelect.selectedIndex = 0;
+        }
+    }
+
+    /**
+     * Update feedback status helper
+     * @param {string} message
+     * @param {string} status - '', 'success', or 'error'
+     */
+    setFeedbackStatus(message, status) {
+        if (!this.feedbackStatus) {
+            return;
+        }
+
+        this.feedbackStatus.textContent = message;
+        this.feedbackStatus.className = 'feedback-status';
+
+        if (status) {
+            this.feedbackStatus.classList.add(status);
+        }
+    }
+
+    /**
+     * Submit feedback to backend
+     * @param {SubmitEvent} event
+     */
+    async submitFeedback(event) {
+        event.preventDefault();
+
+        if (!this.activeRankingId) {
+            this.setFeedbackStatus('No ranking is currently active for feedback.', 'error');
+            return;
+        }
+
+        const articlePosition = Number(this.articlePositionSelect?.value);
+        const vote = this.feedbackForm?.querySelector('input[name="feedbackVote"]:checked')?.value;
+        const notes = this.feedbackNotes?.value?.trim() || '';
+
+        if (!articlePosition || !vote) {
+            this.setFeedbackStatus('Please choose an article and a feedback option.', 'error');
+            return;
+        }
+
+        this.setFeedbackStatus('Submitting feedback…', '');
+
+        try {
+            const response = await fetch('/api/feedback', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    rankingId: this.activeRankingId,
+                    articlePosition,
+                    vote,
+                    notes
+                })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok || !data.success) {
+                throw new Error(data.error || 'Failed to record feedback');
+            }
+
+            this.setFeedbackStatus('Feedback recorded. Thank you!', 'success');
+            this.feedbackForm.reset();
+            this.populateFeedbackOptions(this.feedbackArticles);
+            this.loadFeedbackEntries();
+        } catch (error) {
+            this.setFeedbackStatus(error.message, 'error');
+        }
+    }
+
+    /**
+     * Load feedback entries from backend
+     */
+    async loadFeedbackEntries() {
+        if (!this.feedbackList || !this.activeRankingId) {
+            return;
+        }
+
+        this.feedbackList.innerHTML = '<p class="feedback-empty">Loading feedback…</p>';
+
+        try {
+            const response = await fetch(`/api/feedback?rankingId=${encodeURIComponent(this.activeRankingId)}`);
+            const data = await response.json();
+
+            if (!response.ok || !data.success) {
+                throw new Error(data.error || 'Unable to load feedback entries');
+            }
+
+            this.renderFeedbackEntries(data.entries || []);
+        } catch (error) {
+            this.feedbackList.innerHTML = `<p class="feedback-empty">${error.message}</p>`;
+        }
+    }
+
+    /**
+     * Render feedback entries
+     * @param {Array} entries
+     */
+    renderFeedbackEntries(entries) {
+        if (!this.feedbackList) {
+            return;
+        }
+
+        this.feedbackList.innerHTML = '';
+
+        if (!entries.length) {
+            this.feedbackList.innerHTML = '<p class="feedback-empty">No feedback submitted yet.</p>';
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
+        entries.forEach(entry => {
+            const container = document.createElement('div');
+            container.className = 'feedback-entry';
+
+            const article = this.feedbackArticles.find(item => item.position === entry.articlePosition);
+            const articleLabel = article ? article.title : `Article #${entry.articlePosition}`;
+
+            const header = document.createElement('div');
+            header.innerHTML = `<strong>${this.formatVoteLabel(entry.vote)}</strong> · <span>#${entry.articlePosition} ${articleLabel}</span>`;
+
+            const time = document.createElement('span');
+            time.textContent = new Date(entry.submittedAt).toLocaleString();
+            time.className = 'feedback-timestamp';
+
+            container.appendChild(header);
+            container.appendChild(time);
+
+            if (entry.notes) {
+                const notes = document.createElement('p');
+                notes.textContent = entry.notes;
+                container.appendChild(notes);
+            }
+
+            fragment.appendChild(container);
+        });
+
+        this.feedbackList.appendChild(fragment);
+    }
+
+    /**
+     * Format vote label for display
+     * @param {string} vote
+     * @returns {string}
+     */
+    formatVoteLabel(vote) {
+        switch (vote) {
+            case 'promote':
+                return 'Promote in ranking';
+            case 'demote':
+                return 'Demote in ranking';
+            case 'correct':
+                return 'Ordering looks correct';
+            default:
+                return vote;
+        }
     }
 
     /**

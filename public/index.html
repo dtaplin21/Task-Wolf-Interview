@@ -84,6 +84,38 @@
                     <div class="results-content" id="resultsContent"></div>
                 </div>
 
+                <!-- Feedback Section -->
+                <div class="feedback-section" id="feedbackSection" style="display: none;">
+                    <div class="feedback-header">
+                        <h3>Ranking Feedback</h3>
+                        <p>Help us monitor AI rankings by sharing when the ordering looks right or needs attention.</p>
+                    </div>
+                    <form class="feedback-form" id="feedbackForm">
+                        <div class="form-row">
+                            <label for="articlePositionSelect">Article Position</label>
+                            <select id="articlePositionSelect" required></select>
+                        </div>
+                        <div class="form-row">
+                            <label>Suggested Action</label>
+                            <div class="feedback-options">
+                                <label><input type="radio" name="feedbackVote" value="promote" required> Promote</label>
+                                <label><input type="radio" name="feedbackVote" value="demote"> Demote</label>
+                                <label><input type="radio" name="feedbackVote" value="correct"> Looks Correct</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label for="feedbackNotes">Notes <span class="optional">(optional)</span></label>
+                            <textarea id="feedbackNotes" rows="3" placeholder="Share any details that can help improve the AI ranking."></textarea>
+                        </div>
+                        <button type="submit" class="feedback-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Submit Feedback</span>
+                        </button>
+                        <div class="feedback-status" id="feedbackStatus"></div>
+                    </form>
+                    <div class="feedback-list" id="feedbackList"></div>
+                </div>
+
                 <!-- Logs Section -->
                 <div class="logs-section" id="logsSection" style="display: none;">
                     <h3>Execution Logs</h3>
