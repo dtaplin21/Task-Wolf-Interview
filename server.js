@@ -2,6 +2,7 @@
 const express = require('express');
 const path = require('path');
 const { spawn } = require('child_process');
+const articleRepository = require('./src/data/articles');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -174,6 +175,18 @@ function parseScraperOutput(output) {
         }
     }
     
+    const metadata = {
+        totalArticles,
+        pagesNavigated,
+        isCorrectlySorted,
+        sortingErrors
+    };
+
+    articleRepository.saveArticles({
+        articles,
+        metadata
+    });
+
     return {
         totalArticles,
         pagesNavigated,
