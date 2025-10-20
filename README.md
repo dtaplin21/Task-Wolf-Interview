@@ -79,6 +79,7 @@ qa_wolf_take_home/
 - **Results Display**: Formatted output with syntax highlighting
 - **Error Handling**: User-friendly error messages
 - **Loading States**: Visual feedback during operations
+- **Ranking Feedback**: Capture human annotations about article ordering directly in the UI
 
 ### Scraper Enhancements
 - **Modular Architecture**: Clean, maintainable code structure
@@ -87,6 +88,12 @@ qa_wolf_take_home/
 - **Configuration Management**: Centralized settings
 - **Robust Pagination**: Handles multiple pages reliably
 - **Timestamp Parsing**: Supports both ISO and relative time formats
+
+### AI Ranking Enhancements
+- **AI Metrics Logging**: Every AI ranking request and response records latency, status, and error metadata in `logs/ai-metrics.log`
+- **Human Feedback Loop**: `/api/feedback` endpoint and UI controls enable reviewers to promote/demote specific articles
+- **Scheduled Re-scoring**: Background job periodically refreshes AI scores using `AI_RESCORE_INTERVAL_MS` (default 15 minutes)
+- **Manual Overrides**: Trigger on-demand re-score runs via `POST /api/ai/rescore`
 
 ## 🛠️ Technical Implementation
 
@@ -122,6 +129,23 @@ The interface follows modern web design principles:
 - `npm start` - Start the web server
 - `npm run scrape` - Run scraper directly (command line)
 - `npm run dev` - Development mode (same as start)
+
+## 🧭 Operational Playbooks
+
+### Monitor AI Metrics
+1. Start the service with `npm start`.
+2. Tail `logs/ai-metrics.log` to watch real-time request/response entries with latency and error details.
+3. Investigate any `ai-error` or `system-error` entries surfaced in the terminal or log file.
+
+### Collect Human Feedback
+- After a scrape finishes in the UI, use the "Ranking Feedback" form to promote/demote items or confirm correctness.
+- Programmatically submit annotations with `POST /api/feedback` using `rankingId`, `articlePosition`, `vote` (`promote|demote|correct`), and optional `notes`.
+- Review recent feedback with `GET /api/feedback?rankingId=<id>` to spot disagreement clusters.
+
+### Control AI Re-scoring
+- Background jobs run every 15 minutes by default; override with `AI_RESCORE_INTERVAL_MS` (milliseconds).
+- Trigger an immediate re-score with `POST /api/ai/rescore` (optionally pass `rankingId`).
+- Retrieve the latest ranking plus AI insight using `GET /api/rankings/latest` to verify freshness.
 
 ### Customization
 - Modify `public/styles.css` for styling changes

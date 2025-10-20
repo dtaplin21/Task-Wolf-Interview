@@ -2,9 +2,14 @@
 const express = require('express');
 const path = require('path');
 const { spawn } = require('child_process');
+const rankingStore = require('./services/rankingStore');
+const aiScoringService = require('./services/aiScoringService');
+const metricsLogger = require('./utils/metricsLogger');
+const { startReScoringScheduler } = require('./scheduler/reScoringScheduler');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const FEEDBACK_VOTES = new Set(['promote', 'demote', 'correct']);
 
 // Middleware
 app.use(express.json());
@@ -73,9 +78,33 @@ app.post('/api/scrape', async (req, res) => {
         if (exitCode === 0) {
             // Parse the output to extract structured data
             const results = parseScraperOutput(stdout);
+            const rankingRecord = rankingStore.createRankingRecord({
+                url,
+                totalArticles: results.totalArticles,
+                pagesNavigated: results.pagesNavigated,
+                isCorrectlySorted: results.isCorrectlySorted,
+                articles: results.articles
+            });
+
+            // Trigger an asynchronous AI re-scoring for the freshly scraped ranking
+            aiScoringService
+                .requestAIScoring(rankingRecord)
+                .then((aiResult) => {
+                    rankingStore.saveAIInsight(rankingRecord.id, aiResult);
+                })
+                .catch((error) => {
+                    metricsLogger.logSystemError('ai-initial-rescore-failed', {
+                        message: error.message,
+                        rankingId: rankingRecord.id
+                    });
+                });
+
             res.json({
                 success: true,
                 ...results,
+                rankingId: rankingRecord.id,
+                rankingGeneratedAt: rankingRecord.generatedAt,
+                targetUrl: url,
                 rawOutput: stdout
             });
         } else {
@@ -93,6 +122,107 @@ app.post('/api/scrape', async (req, res) => {
             success: false,
             error: error.message
         });
+    }
+});
+
+/**
+ * Get the most recent ranking along with any AI insights
+ */
+app.get('/api/rankings/latest', (req, res) => {
+    const ranking = rankingStore.getCurrentRanking();
+
+    if (!ranking) {
+        return res.status(404).json({
+            success: false,
+            error: 'No ranking results are available yet'
+        });
+    }
+
+    res.json({
+        success: true,
+        ranking,
+        aiInsight: rankingStore.getAIInsight(ranking.id)
+    });
+});
+
+/**
+ * Submit human feedback on article rankings
+ */
+app.post('/api/feedback', (req, res) => {
+    try {
+        const { rankingId, articlePosition, vote, notes } = req.body || {};
+
+        if (!rankingId) {
+            return res.status(400).json({ success: false, error: 'rankingId is required' });
+        }
+
+        const ranking = rankingStore.getRankingById(rankingId);
+        if (!ranking) {
+            return res.status(404).json({ success: false, error: 'Ranking not found' });
+        }
+
+        if (!FEEDBACK_VOTES.has(vote)) {
+            return res.status(400).json({ success: false, error: 'vote must be promote, demote, or correct' });
+        }
+
+        const positionNumber = Number(articlePosition);
+        if (!Number.isInteger(positionNumber) || positionNumber < 1 || positionNumber > ranking.articles.length) {
+            return res.status(400).json({ success: false, error: 'articlePosition must be a valid article index' });
+        }
+
+        const feedback = rankingStore.addFeedback({
+            rankingId,
+            articlePosition: positionNumber,
+            vote,
+            notes
+        });
+
+        metricsLogger.logSystemEvent('feedback-received', {
+            rankingId,
+            articlePosition: positionNumber,
+            vote
+        });
+
+        res.status(201).json({ success: true, feedback });
+    } catch (error) {
+        metricsLogger.logSystemError('feedback-submit-failed', { message: error.message });
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+/**
+ * List recorded feedback entries
+ */
+app.get('/api/feedback', (req, res) => {
+    const { rankingId } = req.query || {};
+    const entries = rankingStore.listFeedback({ rankingId });
+    res.json({ success: true, entries });
+});
+
+/**
+ * Manually trigger an AI re-scoring
+ */
+app.post('/api/ai/rescore', async (req, res) => {
+    try {
+        const { rankingId } = req.body || {};
+        const ranking = rankingId ? rankingStore.getRankingById(rankingId) : rankingStore.getCurrentRanking();
+
+        if (!ranking) {
+            return res.status(404).json({ success: false, error: 'No ranking available for re-scoring' });
+        }
+
+        const aiResult = await aiScoringService.requestAIScoring(ranking);
+        rankingStore.saveAIInsight(ranking.id, aiResult);
+
+        metricsLogger.logSystemEvent('ai-rescore-triggered', {
+            rankingId: ranking.id,
+            requestId: aiResult.requestId
+        });
+
+        res.json({ success: true, rankingId: ranking.id, aiResult });
+    } catch (error) {
+        metricsLogger.logSystemError('ai-rescore-endpoint-failed', { message: error.message });
+        res.status(500).json({ success: false, error: error.message });
     }
 });
 
@@ -187,12 +317,15 @@ function parseScraperOutput(output) {
  * Health check endpoint
  */
 app.get('/api/health', (req, res) => {
-    res.json({ 
-        status: 'healthy', 
+    res.json({
+        status: 'healthy',
         timestamp: new Date().toISOString(),
         service: 'Hacker News Scraper API'
     });
 });
+
+// Start scheduled AI re-scoring in the background
+startReScoringScheduler();
 
 /**
  * Start the server
