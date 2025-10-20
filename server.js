@@ -1,29 +1,52 @@
-// Express server to serve the frontend and run the Hacker News scraper
+// Express server to serve the frontend and run the web scraper
 const express = require('express');
 const path = require('path');
 const { spawn } = require('child_process');
 
-// Combine all imports from both branches
+// Import all required modules
+const config = require('./config/config');
 const rankingStore = require('./services/rankingStore');
 const aiScoringService = require('./services/aiScoringService');
 const metricsLogger = require('./utils/metricsLogger');
 const { startReScoringScheduler } = require('./scheduler/reScoringScheduler');
 const articleRepository = require('./src/data/articles');
-const authenticateRequest = require('./middleware/authenticate');
+const { authenticateRequest } = require('./middleware/authenticate');
 const { rateLimitMiddleware } = require('./middleware/rateLimit');
-const articleScoringService = require('./services/articleScoringService');
+const { articleScoringService } = require('./services/articleScoringService');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = config.getPort();
 const FEEDBACK_VOTES = new Set(['promote', 'demote', 'correct']);
+
+// Print configuration help if OpenAI is not configured
+if (!config.isOpenAIConfigured()) {
+    config.printHelp();
+}
 
 // Middleware
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use((req, res, next) => {
-    req.requestId = req.get('x-request-id') || `${Date.now()}-${Math.random().toString(36).slice(2)}`;
-    next();
+/**
+ * Get system status and configuration
+ */
+app.get('/api/status', (req, res) => {
+    res.json({
+        success: true,
+        server: {
+            port: PORT,
+            nodeEnv: config.getNodeEnv(),
+            uptime: process.uptime()
+        },
+        openai: {
+            configured: config.isOpenAIConfigured(),
+            aiScoringAvailable: aiScoringService.isAvailable()
+        },
+        services: {
+            aiScoring: aiScoringService.getStatus()
+        },
+        config: config.getStatus()
+    });
 });
 
 /**
@@ -238,6 +261,66 @@ app.post('/api/ai/rescore', async (req, res) => {
 });
 
 /**
+ * Get hacking-focused analysis of articles
+ */
+app.post('/api/ai/hacking-analysis', async (req, res) => {
+    try {
+        const { rankingId } = req.body || {};
+        const ranking = rankingId ? rankingStore.getRankingById(rankingId) : rankingStore.getCurrentRanking();
+
+        if (!ranking) {
+            return res.status(404).json({ 
+                success: false, 
+                error: 'No ranking available for hacking analysis' 
+            });
+        }
+
+        if (!aiScoringService.isAvailable()) {
+            return res.status(503).json({ 
+                success: false, 
+                error: 'AI service not available. Please configure OpenAI API key.' 
+            });
+        }
+
+        console.log(`[API] Starting hacking analysis for ranking ${ranking.id}`);
+        
+        const hackingResult = await aiScoringService.requestHackingAnalysis(ranking);
+        
+        // Save the hacking analysis separately
+        rankingStore.saveAIInsight(ranking.id, {
+            ...hackingResult,
+            analysisType: 'hacking-focused'
+        });
+
+        metricsLogger.logSystemEvent('hacking-analysis-completed', {
+            rankingId: ranking.id,
+            requestId: hackingResult.requestId,
+            articlesAnalyzed: hackingResult.articlesAnalyzed
+        });
+
+        res.json({ 
+            success: true, 
+            rankingId: ranking.id, 
+            hackingAnalysis: hackingResult,
+            topHackingArticles: hackingResult.analysis?.topArticles || [],
+            securityInsights: hackingResult.analysis?.securityInsights || 'No insights available',
+            recommendedFocus: hackingResult.analysis?.recommendedFocus || 'Manual review recommended'
+        });
+
+    } catch (error) {
+        console.error('[API] Hacking analysis failed:', error.message);
+        metricsLogger.logSystemError('hacking-analysis-endpoint-failed', { 
+            message: error.message 
+        });
+        res.status(500).json({ 
+            success: false, 
+            error: error.message 
+        });
+    }
+});
+
+
+/**
  * API endpoint to score and rank articles using the article scoring service
  */
 app.post('/api/articles/score', authenticateRequest, rateLimitMiddleware, async (req, res) => {
@@ -378,6 +461,46 @@ function parseScraperOutput(output) {
         sortingErrors
     };
 }
+
+/**
+ * Get ranked articles endpoint
+ */
+app.get('/api/articles/ranked', (req, res) => {
+    try {
+        const ranking = rankingStore.getCurrentRanking();
+        
+        if (!ranking) {
+            return res.json({
+                success: true,
+                articles: []
+            });
+        }
+
+        // Transform articles for frontend
+        const rankedArticles = ranking.articles.map((article, index) => ({
+            title: article.title,
+            url: article.url || '#',
+            score: article.score || Math.max(1, 100 - index), // Generate score based on position
+            position: index + 1,
+            timeText: article.timeText,
+            page: article.page
+        }));
+
+        res.json({
+            success: true,
+            articles: rankedArticles,
+            rankingId: ranking.id,
+            totalArticles: ranking.totalArticles
+        });
+
+    } catch (error) {
+        console.error('Failed to get ranked articles:', error.message);
+        res.status(500).json({
+            success: false,
+            error: 'Failed to retrieve ranked articles'
+        });
+    }
+});
 
 /**
  * Health check endpoint

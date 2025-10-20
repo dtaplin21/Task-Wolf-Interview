@@ -348,6 +348,13 @@ body {
     border-color: var(--primary-color);
 }
 
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .scrape-button {
     background-color: var(--primary-color);
     color: white;
@@ -363,7 +370,27 @@ body {
     gap: 0.5rem;
     transition: all 0.3s ease;
     min-height: 3rem;
+    flex: 1;
 }
+
+.hacking-analysis-button {
+    background-color: var(--warning-color);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    min-height: 3rem;
+    flex: 1;
+}
+
 
 .scrape-button:hover:not(:disabled) {
     background-color: var(--primary-hover);
@@ -376,6 +403,20 @@ body {
     cursor: not-allowed;
     transform: none;
 }
+
+.hacking-analysis-button:hover:not(:disabled) {
+    background-color: #d97706;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-lg);
+}
+
+.hacking-analysis-button:disabled {
+    background-color: var(--secondary-color);
+    cursor: not-allowed;
+    transform: none;
+}
+
+
 
 .scrape-button i {
     font-size: 1rem;

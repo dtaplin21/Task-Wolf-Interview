@@ -7,7 +7,6 @@ class HackerNewsScraper {
 
         this.activeRankingId = null;
         this.feedbackArticles = [];
-=======
         this.loadRankedArticles();
     }
 
@@ -16,6 +15,7 @@ class HackerNewsScraper {
      */
     initializeElements() {
         this.scrapeButton = document.getElementById('scrapeButton');
+        this.hackingAnalysisButton = document.getElementById('hackingAnalysisButton');
         this.targetUrlInput = document.getElementById('targetUrl');
         this.progressSection = document.getElementById('progressSection');
         this.progressFill = document.getElementById('progressFill');
@@ -43,13 +43,14 @@ class HackerNewsScraper {
      */
     bindEvents() {
         this.scrapeButton.addEventListener('click', () => this.startScraping());
+        this.hackingAnalysisButton.addEventListener('click', () => this.startHackingAnalysis());
         this.themeToggle.addEventListener('click', () => this.toggleTheme());
         
         // Bind preset button events
         this.presetButtons.forEach(button => {
             button.addEventListener('click', () => this.selectPresetUrl(button));
         });
-
+        
         // Bind input validation
         this.targetUrlInput.addEventListener('input', () => this.validateUrl());
         this.targetUrlInput.addEventListener('blur', () => this.validateUrl());
@@ -321,7 +322,174 @@ class HackerNewsScraper {
 
         if (results.success) {
             this.showFeedbackSection(results);
+            this.enableAnalysisButtons();
         }
+    }
+
+    /**
+     * Enable the analysis buttons
+     */
+    enableAnalysisButtons() {
+        if (this.hackingAnalysisButton) {
+            this.hackingAnalysisButton.disabled = false;
+        }
+    }
+
+    /**
+     * Start hacking-focused analysis
+     */
+    async startHackingAnalysis() {
+        try {
+            this.setHackingAnalysisLoadingState(true);
+            this.showProgress();
+            this.clearResults();
+
+            this.updateProgress(10, 'Initializing AI analysis...');
+            await this.delay(500);
+
+            this.updateProgress(25, 'Analyzing articles for security content...');
+            await this.delay(1000);
+
+            this.updateProgress(50, 'Evaluating technical depth and practical value...');
+            await this.delay(1500);
+
+            this.updateProgress(75, 'Generating security insights...');
+            await this.delay(1000);
+
+            // Call the hacking analysis API
+            const response = await this.callHackingAnalysisAPI();
+            
+            this.updateProgress(100, 'Analysis complete!');
+            await this.delay(500);
+
+            this.displayHackingResults(response);
+            this.hideProgress();
+
+        } catch (error) {
+            console.error('Hacking analysis failed:', error);
+            this.displayError(error.message);
+            this.hideProgress();
+        } finally {
+            this.setHackingAnalysisLoadingState(false);
+        }
+    }
+
+    /**
+     * Call the hacking analysis API
+     * @returns {Promise<Object>} Hacking analysis results
+     */
+    async callHackingAnalysisAPI() {
+        try {
+            const response = await fetch('/api/ai/hacking-analysis', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({})
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            throw new Error(`Failed to call hacking analysis API: ${error.message}`);
+        }
+    }
+
+    /**
+     * Set the loading state of the hacking analysis button
+     * @param {boolean} isLoading - Whether the button should be in loading state
+     */
+    setHackingAnalysisLoadingState(isLoading) {
+        this.hackingAnalysisButton.disabled = isLoading;
+        const buttonText = this.hackingAnalysisButton.querySelector('span');
+        const buttonIcon = this.hackingAnalysisButton.querySelector('i');
+        
+        if (isLoading) {
+            buttonText.textContent = 'Analyzing...';
+            buttonIcon.className = 'fas fa-spinner fa-spin';
+            this.hackingAnalysisButton.classList.add('loading');
+        } else {
+            buttonText.textContent = 'Analyze for Hacking Content';
+            buttonIcon.className = 'fas fa-shield-alt';
+            this.hackingAnalysisButton.classList.remove('loading');
+        }
+    }
+
+    /**
+     * Display hacking analysis results
+     * @param {Object} results - Results from the hacking analysis
+     */
+    displayHackingResults(results) {
+        this.resultsSection.style.display = 'block';
+        
+        let output = '';
+        
+        if (results.success) {
+            output += this.formatHackingResults(results);
+        } else {
+            output += this.formatErrorResults(results);
+        }
+        
+        this.resultsContent.textContent = output;
+        this.resultsContent.scrollTop = 0;
+    }
+
+    /**
+     * Format hacking analysis results
+     * @param {Object} results - Successful hacking analysis results
+     * @returns {string} Formatted output
+     */
+    formatHackingResults(results) {
+        let output = '';
+        
+        output += '='.repeat(80) + '\n';
+        output += 'AI HACKING & SECURITY ANALYSIS RESULTS\n';
+        output += '='.repeat(80) + '\n';
+        output += `Analysis completed: ${new Date().toLocaleString()}\n`;
+        output += `Articles analyzed: ${results.hackingAnalysis?.articlesAnalyzed || 0}\n`;
+        output += `Request ID: ${results.hackingAnalysis?.requestId || 'N/A'}\n\n`;
+        
+        // Top hacking articles
+        if (results.topHackingArticles && results.topHackingArticles.length > 0) {
+            output += 'TOP HACKING ARTICLES (Ranked by Security Value):\n';
+            output += '-'.repeat(60) + '\n';
+            
+            results.topHackingArticles.forEach((article, index) => {
+                output += `\n${index + 1}. ${article.title}\n`;
+                output += `   Position: #${article.position}\n`;
+                output += `   Technical Depth: ${article.technicalDepth}/10\n`;
+                output += `   Security Relevance: ${article.securityRelevance}/10\n`;
+                output += `   Practical Value: ${article.practicalValue}/10\n`;
+                output += `   Learning Value: ${article.learningValue}/10\n`;
+                output += `   Innovation Level: ${article.innovationLevel}/10\n`;
+                output += `   Overall Score: ${article.overallScore}/10\n`;
+                output += `   Reasoning: ${article.reasoning}\n`;
+            });
+        }
+        
+        // Security insights
+        if (results.securityInsights) {
+            output += '\n\nSECURITY INSIGHTS:\n';
+            output += '-'.repeat(40) + '\n';
+            output += `${results.securityInsights}\n`;
+        }
+        
+        // Recommended focus
+        if (results.recommendedFocus) {
+            output += '\n\nRECOMMENDED FOCUS:\n';
+            output += '-'.repeat(40) + '\n';
+            output += `${results.recommendedFocus}\n`;
+        }
+        
+        output += '\n' + '='.repeat(80) + '\n';
+        output += 'Analysis completed using AI-powered security expertise\n';
+        output += '='.repeat(80) + '\n';
+        
+        return output;
     }
 
     /**

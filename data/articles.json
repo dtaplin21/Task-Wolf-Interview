@@ -1,0 +1,4906 @@
+[
+  {
+    "id": "article-1760983936674-dmms418ry",
+    "timestamp": "2025-10-20T18:12:16.674Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "Peanut Allergies Have Plummeted in Children",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "Musk's $1T Tesla pay plan draws some protest ahead of likely approval",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "American Airlines Subsidiary Envoy Air Hit by Oracle Hack",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "An Unexpected Benefit from Quitting Coffee – 10 Months In",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "SIM Farm Dismantled in Europe, Seven Arrested",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "The Cost of AI in Software Engineering",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "Characterizing Fractured Zones in Urban Karst Geology Using Leaky Surface Waves",
+        "timeText": "6 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "Doomsday Church Renovating Popular Yellowstone Hot Springs",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "China's generative AI user base doubles to 515M",
+        "timeText": "36.5%) in 6 months (7 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "Topic-based journaling instead of daily notes",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "Smart Glasses Are Forcing Wearables to Get Weird",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "Supabase us-east-1 down",
+        "timeText": "11 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "London Became a Global Hub for Phone Theft. Now We Know Why",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "x86-64 Playground – An online assembly editor and GDB-like debugger",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "The internet is dying on the outside but growing on the inside",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Work Fast but Towards What",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Show HN: I Spent $300 Learning That Replit Has SSH Support",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "One AWS failure took down the internet Monday morning – what went wrong",
+        "timeText": "16 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "Ireland plans to make a $1,500 a month basic income for artists permanent",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "Show HN: ContextKey – Use a hotkey to query LLM using any text or file",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "Quick notes from vibe-coding a comic website",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "AMD Ryzen 9 9950X vs. 9950X3D on Windows 11 and Ubuntu Linux",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Diamond Thermal Conductivity: A New Era in Chip Cooling",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "Blackwell Rises from Phoenix Fab",
+        "timeText": "22 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "UK Think Tank: Documents Show Russia Is Helping China Prepare to Seize Taiwan",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "Why a 'Boring' Life Might Be the Happiest One",
+        "timeText": "26 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "Data-enhanced article showing how bird migration is changing",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "Gleam v1.13.0 Released",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "StarRocks 4.0 Is Out: Faster Joins, Native JSON, and Full Iceberg Support",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "Don't Use Booleans",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Speaking of Amazon, here's a fresh post from an engineer who just quit",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "The State of Obesity Report 2025 – Trends in obesity [pdf]",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "You're insignificant. That's a good thing",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "My conclusions after using Signed Exchanges on my website for 2 years",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "TernFS – an exabyte scale, multi-region distributed filesystem",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "AWS outage shows internet users 'at mercy' of too few providers, experts say",
+        "timeText": "38 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Petrobras Wins Fight to Explore for Oil Near Amazon",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "Dutch spy services have restricted intelligence-sharing with the United States",
+        "timeText": "45 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "Chess grandmaster Daniel Naroditsky has passed away",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Getting DeepSeek-OCR Working on an Nvidia Spark via Brute Force with Claude Code",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "Letter to a Young Person Worrying About AI",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "The mad king's digital killswitch",
+        "timeText": "48 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "49 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "49 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "The Inevitability of Anger",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "Internet of Trees",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "One Dollar Stats",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Art Appreciation 2525",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "Postman down. Time to curl again",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "The Apollo A6000",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Frugal Living",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "Funny Domain",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "The Human Only Public License",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T18:12:16.674Z"
+  },
+  {
+    "id": "article-1760983880095-ya39oz4hh",
+    "timestamp": "2025-10-20T18:11:20.095Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "Peanut Allergies Have Plummeted in Children",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "Musk's $1T Tesla pay plan draws some protest ahead of likely approval",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "American Airlines Subsidiary Envoy Air Hit by Oracle Hack",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "An Unexpected Benefit from Quitting Coffee – 10 Months In",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "SIM Farm Dismantled in Europe, Seven Arrested",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "The Cost of AI in Software Engineering",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "Characterizing Fractured Zones in Urban Karst Geology Using Leaky Surface Waves",
+        "timeText": "6 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "Doomsday Church Renovating Popular Yellowstone Hot Springs",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "China's generative AI user base doubles to 515M",
+        "timeText": "36.5%) in 6 months (7 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "Topic-based journaling instead of daily notes",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "Smart Glasses Are Forcing Wearables to Get Weird",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "Supabase us-east-1 down",
+        "timeText": "11 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "London Became a Global Hub for Phone Theft. Now We Know Why",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "x86-64 Playground – An online assembly editor and GDB-like debugger",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "The internet is dying on the outside but growing on the inside",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Work Fast but Towards What",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Show HN: I Spent $300 Learning That Replit Has SSH Support",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "One AWS failure took down the internet Monday morning – what went wrong",
+        "timeText": "16 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "Ireland plans to make a $1,500 a month basic income for artists permanent",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "Show HN: ContextKey – Use a hotkey to query LLM using any text or file",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "Quick notes from vibe-coding a comic website",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "AMD Ryzen 9 9950X vs. 9950X3D on Windows 11 and Ubuntu Linux",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Diamond Thermal Conductivity: A New Era in Chip Cooling",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "Blackwell Rises from Phoenix Fab",
+        "timeText": "22 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "UK Think Tank: Documents Show Russia Is Helping China Prepare to Seize Taiwan",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "Why a 'Boring' Life Might Be the Happiest One",
+        "timeText": "26 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "Data-enhanced article showing how bird migration is changing",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "Gleam v1.13.0 Released",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "StarRocks 4.0 Is Out: Faster Joins, Native JSON, and Full Iceberg Support",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "Don't Use Booleans",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Speaking of Amazon, here's a fresh post from an engineer who just quit",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "The State of Obesity Report 2025 – Trends in obesity [pdf]",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "You're insignificant. That's a good thing",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "My conclusions after using Signed Exchanges on my website for 2 years",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "TernFS – an exabyte scale, multi-region distributed filesystem",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "AWS outage shows internet users 'at mercy' of too few providers, experts say",
+        "timeText": "38 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Petrobras Wins Fight to Explore for Oil Near Amazon",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "Dutch spy services have restricted intelligence-sharing with the United States",
+        "timeText": "45 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "Chess grandmaster Daniel Naroditsky has passed away",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Getting DeepSeek-OCR Working on an Nvidia Spark via Brute Force with Claude Code",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "Letter to a Young Person Worrying About AI",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "The mad king's digital killswitch",
+        "timeText": "48 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "49 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "49 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "The Inevitability of Anger",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "Internet of Trees",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "One Dollar Stats",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Art Appreciation 2525",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "Postman down. Time to curl again",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "The Apollo A6000",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Frugal Living",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "Funny Domain",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "The Human Only Public License",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T18:11:20.095Z"
+  },
+  {
+    "id": "article-1760983027135-5ubv27qda",
+    "timestamp": "2025-10-20T17:57:07.135Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "x86-64 Playground – An online assembly editor and GDB-like debugger",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "The internet is dying on the outside but growing on the inside",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "Work Fast but Towards What",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "Show HN: I Spent $300 Learning That Replit Has SSH Support",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "One AWS failure took down the internet Monday morning – what went wrong",
+        "timeText": "2 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "Ireland plans to make a $1,500 a month basic income for artists permanent",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "Show HN: ContextKey – Use a hotkey to query LLM using any text or file",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "Quick notes from vibe-coding a comic website",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "AMD Ryzen 9 9950X vs. 9950X3D on Windows 11 and Ubuntu Linux",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "Diamond Thermal Conductivity: A New Era in Chip Cooling",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "Blackwell Rises from Phoenix Fab",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "UK Think Tank: Documents Show Russia Is Helping China Prepare to Seize Taiwan",
+        "timeText": "9 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "Why a 'Boring' Life Might Be the Happiest One",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "Data-enhanced article showing how bird migration is changing",
+        "timeText": "14 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "Gleam v1.13.0 Released",
+        "timeText": "14 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "StarRocks 4.0 Is Out: Faster Joins, Native JSON, and Full Iceberg Support",
+        "timeText": "14 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Don't Use Booleans",
+        "timeText": "14 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Speaking of Amazon, here's a fresh post from an engineer who just quit",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "The State of Obesity Report 2025 – Trends in obesity [pdf]",
+        "timeText": "16 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "You're insignificant. That's a good thing",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "My conclusions after using Signed Exchanges on my website for 2 years",
+        "timeText": "18 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "TernFS – an exabyte scale, multi-region distributed filesystem",
+        "timeText": "20 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "AWS outage shows internet users 'at mercy' of too few providers, experts say",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Petrobras Wins Fight to Explore for Oil Near Amazon",
+        "timeText": "27 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "Dutch spy services have restricted intelligence-sharing with the United States",
+        "timeText": "30 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "Chess grandmaster Daniel Naroditsky has passed away",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "Getting DeepSeek-OCR Working on an Nvidia Spark via Brute Force with Claude Code",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "Letter to a Young Person Worrying About AI",
+        "timeText": "33 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "The mad king's digital killswitch",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "The Inevitability of Anger",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "43 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "43 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "53 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "55 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "58 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "58 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "Internet of Trees",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "One Dollar Stats",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Art Appreciation 2525",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "Postman down. Time to curl again",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "The Apollo A6000",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "Frugal Living",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "Funny Domain",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "The Human Only Public License",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "Show HN: Excalidraw for Sticky Notes",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "AI and the Art of Persuasion",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "Measuring Engineering Productivity",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "DaoFlow: Not an AWS Wrapper, your bare metal / VM wrapper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "AWS us-east-1 outage on 2025-10-20: 7% of teams were paged",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "AI will never be your friend",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Kohler launches smart toilet camera",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Windows Shell Previews",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Trump Lists Top Demands on China Before Trade Talks Resume",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Show HN: Copilot AI Agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "Xyne: Open-source LLM-driven search engine for Google Workspace",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Show HN: Visual autocomplete for drawings",
+        "timeText": "real-time Human-AI interaction) (1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "What I Self Host",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Spin-orbit torque switching of epitaxial ferrimagnetic insulator",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T17:57:07.135Z"
+  },
+  {
+    "id": "article-1760982796322-aroflnwj9",
+    "timestamp": "2025-10-20T17:53:16.322Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "Quick notes from vibe-coding a comic website",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "AMD Ryzen 9 9950X vs. 9950X3D on Windows 11 and Ubuntu Linux",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "Diamond Thermal Conductivity: A New Era in Chip Cooling",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "Blackwell Rises from Phoenix Fab",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "UK Think Tank: Documents Show Russia Is Helping China Prepare to Seize Taiwan",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "Why a 'Boring' Life Might Be the Happiest One",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "Data-enhanced article showing how bird migration is changing",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "Gleam v1.13.0 Released",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "StarRocks 4.0 Is Out: Faster Joins, Native JSON, and Full Iceberg Support",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "Don't Use Booleans",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "Speaking of Amazon, here's a fresh post from an engineer who just quit",
+        "timeText": "11 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "The State of Obesity Report 2025 – Trends in obesity [pdf]",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "You're insignificant. That's a good thing",
+        "timeText": "13 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "My conclusions after using Signed Exchanges on my website for 2 years",
+        "timeText": "14 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "TernFS – an exabyte scale, multi-region distributed filesystem",
+        "timeText": "16 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "AWS outage shows internet users 'at mercy' of too few providers, experts say",
+        "timeText": "19 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Petrobras Wins Fight to Explore for Oil Near Amazon",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Dutch spy services have restricted intelligence-sharing with the United States",
+        "timeText": "26 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "Chess grandmaster Daniel Naroditsky has passed away",
+        "timeText": "27 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "Getting DeepSeek-OCR Working on an Nvidia Spark via Brute Force with Claude Code",
+        "timeText": "27 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "Letter to a Young Person Worrying About AI",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "The mad king's digital killswitch",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "30 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "The Inevitability of Anger",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "35 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "38 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "38 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "39 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "48 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "48 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "55 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "Internet of Trees",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "One Dollar Stats",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "Art Appreciation 2525",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "Postman down. Time to curl again",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "The Apollo A6000",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Frugal Living",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "Funny Domain",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "The Human Only Public License",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Show HN: Excalidraw for Sticky Notes",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "AI and the Art of Persuasion",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "Measuring Engineering Productivity",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "DaoFlow: Not an AWS Wrapper, your bare metal / VM wrapper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "AWS us-east-1 outage on 2025-10-20: 7% of teams were paged",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "AI will never be your friend",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Kohler launches smart toilet camera",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "Windows Shell Previews",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "Trump Lists Top Demands on China Before Trade Talks Resume",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "Show HN: Copilot AI Agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "Xyne: Open-source LLM-driven search engine for Google Workspace",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Show HN: Visual autocomplete for drawings",
+        "timeText": "real-time Human-AI interaction) (1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "What I Self Host",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Spin-orbit torque switching of epitaxial ferrimagnetic insulator",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Building a lightweight ImGui profiler in ~500 lines of C++",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "China is well positioned for a trade showdown with Trump",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Using Government IDs for Age Assurance",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "NetBox Custom Objects Now GA",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Duff's Device",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "Creative Destruction",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Show HN: Unstable Singularity Detector update 1.4.1",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T17:53:16.322Z"
+  },
+  {
+    "id": "article-1760982268488-q1q64ztng",
+    "timestamp": "2025-10-20T17:44:28.488Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "Why a 'Boring' Life Might Be the Happiest One",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "Data-enhanced article showing how bird migration is changing",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "Gleam v1.13.0 Released",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "StarRocks 4.0 Is Out: Faster Joins, Native JSON, and Full Iceberg Support",
+        "timeText": "2 minutes ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "Don't Use Booleans",
+        "timeText": "2 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "Speaking of Amazon, here's a fresh post from an engineer who just quit",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "The State of Obesity Report 2025 – Trends in obesity [pdf]",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "You're insignificant. That's a good thing",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "My conclusions after using Signed Exchanges on my website for 2 years",
+        "timeText": "6 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "TernFS – an exabyte scale, multi-region distributed filesystem",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "AWS outage shows internet users 'at mercy' of too few providers, experts say",
+        "timeText": "11 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "Petrobras Wins Fight to Explore for Oil Near Amazon",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "Dutch spy services have restricted intelligence-sharing with the United States",
+        "timeText": "18 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "Chess grandmaster Daniel Naroditsky has passed away",
+        "timeText": "19 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "Getting DeepSeek-OCR Working on an Nvidia Spark via Brute Force with Claude Code",
+        "timeText": "19 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "Letter to a Young Person Worrying About AI",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "The mad king's digital killswitch",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "22 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "The Inevitability of Anger",
+        "timeText": "24 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "24 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "27 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "30 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "39 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "39 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "43 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "44 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "45 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "49 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "Internet of Trees",
+        "timeText": "55 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "One Dollar Stats",
+        "timeText": "55 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Art Appreciation 2525",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Postman down. Time to curl again",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "58 minutes ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "The Apollo A6000",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (1 hour ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Frugal Living",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "Funny Domain",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "The Human Only Public License",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "Show HN: Excalidraw for Sticky Notes",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "AI and the Art of Persuasion",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "Measuring Engineering Productivity",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "DaoFlow: Not an AWS Wrapper, your bare metal / VM wrapper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "AWS us-east-1 outage on 2025-10-20: 7% of teams were paged",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "AI will never be your friend",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Kohler launches smart toilet camera",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "Windows Shell Previews",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "Trump Lists Top Demands on China Before Trade Talks Resume",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "Show HN: Copilot AI Agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "Xyne: Open-source LLM-driven search engine for Google Workspace",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Show HN: Visual autocomplete for drawings",
+        "timeText": "real-time Human-AI interaction) (1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "What I Self Host",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "Spin-orbit torque switching of epitaxial ferrimagnetic insulator",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "Building a lightweight ImGui profiler in ~500 lines of C++",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "China is well positioned for a trade showdown with Trump",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Using Government IDs for Age Assurance",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "NetBox Custom Objects Now GA",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Duff's Device",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Creative Destruction",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Show HN: Unstable Singularity Detector update 1.4.1",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Show HN: VT Code – Research preview semantic coding agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "Building an 11.6lbs Canoe",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Electromagnetic Radiation from Video Display Units",
+        "timeText": "1985) [pdf] (1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "Concierge Care for all: What would it look like?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Good Vibes Only",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T17:44:28.488Z"
+  },
+  {
+    "id": "article-1760982214739-dr2taa7pu",
+    "timestamp": "2025-10-20T17:43:34.739Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "StarRocks 4.0 Is Out: Faster Joins, Native JSON, and Full Iceberg Support",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "Don't Use Booleans",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "Speaking of Amazon, here's a fresh post from an engineer who just quit",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "The State of Obesity Report 2025 – Trends in obesity [pdf]",
+        "timeText": "2 minutes ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "You're insignificant. That's a good thing",
+        "timeText": "3 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "My conclusions after using Signed Exchanges on my website for 2 years",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "TernFS – an exabyte scale, multi-region distributed filesystem",
+        "timeText": "6 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "AWS outage shows internet users 'at mercy' of too few providers, experts say",
+        "timeText": "9 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "Petrobras Wins Fight to Explore for Oil Near Amazon",
+        "timeText": "13 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "Dutch spy services have restricted intelligence-sharing with the United States",
+        "timeText": "16 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "Chess grandmaster Daniel Naroditsky has passed away",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "Getting DeepSeek-OCR Working on an Nvidia Spark via Brute Force with Claude Code",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "Letter to a Young Person Worrying About AI",
+        "timeText": "19 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "The mad king's digital killswitch",
+        "timeText": "19 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "20 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "The Inevitability of Anger",
+        "timeText": "22 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "22 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "25 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "26 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "27 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "27 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "38 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "41 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "44 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "44 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "45 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "49 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "53 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Internet of Trees",
+        "timeText": "53 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "One Dollar Stats",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "Art Appreciation 2525",
+        "timeText": "55 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "Postman down. Time to curl again",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "The Apollo A6000",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (59 minutes ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "Frugal Living",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Funny Domain",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "The Human Only Public License",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "Show HN: Excalidraw for Sticky Notes",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "AI and the Art of Persuasion",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Measuring Engineering Productivity",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "DaoFlow: Not an AWS Wrapper, your bare metal / VM wrapper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "AWS us-east-1 outage on 2025-10-20: 7% of teams were paged",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "AI will never be your friend",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "Kohler launches smart toilet camera",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Windows Shell Previews",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Trump Lists Top Demands on China Before Trade Talks Resume",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Show HN: Copilot AI Agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "Xyne: Open-source LLM-driven search engine for Google Workspace",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "Show HN: Visual autocomplete for drawings",
+        "timeText": "real-time Human-AI interaction) (1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "What I Self Host",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "Spin-orbit torque switching of epitaxial ferrimagnetic insulator",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Building a lightweight ImGui profiler in ~500 lines of C++",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "China is well positioned for a trade showdown with Trump",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "Using Government IDs for Age Assurance",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "NetBox Custom Objects Now GA",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "Duff's Device",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Creative Destruction",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "Show HN: Unstable Singularity Detector update 1.4.1",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Show HN: VT Code – Research preview semantic coding agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Building an 11.6lbs Canoe",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Electromagnetic Radiation from Video Display Units",
+        "timeText": "1985) [pdf] (1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Concierge Care for all: What would it look like?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "Good Vibes Only",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Lindenmayer Systems",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "We need to start doing web blocking for non-technical reasons",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Servo 0.0.1 Browser Engine Released",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T17:43:34.739Z"
+  },
+  {
+    "id": "article-1760981021379-xfi01eg74",
+    "timestamp": "2025-10-20T17:23:41.379Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "Elm Is the Best Way for React Developers to Learn Real Functional Programming",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "Show HN: Namefi tokenize domain for trading, DeFi and future internet",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "Fusion is an electrical engineering challenge(Helion) [video]",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "The Inevitability of Anger",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "Ruby Butler: It's Time to Rethink RubyGems and Bundler",
+        "timeText": "2 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "AI language models killed the Turing test: do we even need a replacement?",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "Game Development: History, Industry, and Engine Design",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "Intel fabs misusing J1 Visas",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "The Engineers – BBC Documentary 1978 [video]",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "What Do We Do If SETI Is Successful?",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "I built a Texas Hold 'Em practice app after sucking at it during SF Tech Week",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "From Raw Crystal to Crystal Oscillator – Crystals Go to War in 1943",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "A Trick from Radio Astronomy Could Help Astronomers Find Earth-Like Planets",
+        "timeText": "17 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "DIY conversion of old laptop into portable Server Crashcart/KVM Console/LapDock",
+        "timeText": "18 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "Car harm: A global review of automobility's harm to people and the environment",
+        "timeText": "20 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "Geoblocking Multiple Localities with Nginx",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Show HN: Free AI Website Change Tracker and Smart Alerts",
+        "timeText": "21 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Scaling a Valkey Cluster to 1B Request per Second",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "Are we too reliant on AWS?",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "24 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "25 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "26 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "31 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "Internet of Trees",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "One Dollar Stats",
+        "timeText": "33 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "33 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "Art Appreciation 2525",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "35 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "Postman down. Time to curl again",
+        "timeText": "35 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "The Apollo A6000",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (38 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "39 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "42 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "Frugal Living",
+        "timeText": "43 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "48 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (51 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "Funny Domain",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "58 minutes ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (58 minutes ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "The Human Only Public License",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "Claude for Life Sciences",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "Show HN: Excalidraw for Sticky Notes",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "AI and the Art of Persuasion",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Measuring Engineering Productivity",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "DaoFlow: Not an AWS Wrapper, your bare metal / VM wrapper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "AWS us-east-1 outage on 2025-10-20: 7% of teams were paged",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "AI will never be your friend",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Kohler launches smart toilet camera",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Windows Shell Previews",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "Trump Lists Top Demands on China Before Trade Talks Resume",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Show HN: Copilot AI Agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "Xyne: Open-source LLM-driven search engine for Google Workspace",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "Show HN: Visual autocomplete for drawings",
+        "timeText": "real-time Human-AI interaction) (1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "What I Self Host",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "Spin-orbit torque switching of epitaxial ferrimagnetic insulator",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "Building a lightweight ImGui profiler in ~500 lines of C++",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "China is well positioned for a trade showdown with Trump",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Using Government IDs for Age Assurance",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "NetBox Custom Objects Now GA",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "Duff's Device",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "Creative Destruction",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "Show HN: Unstable Singularity Detector update 1.4.1",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Show HN: VT Code – Research preview semantic coding agent",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Building an 11.6lbs Canoe",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Electromagnetic Radiation from Video Display Units",
+        "timeText": "1985) [pdf] (1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "Concierge Care for all: What would it look like?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "Good Vibes Only",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "Lindenmayer Systems",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "We need to start doing web blocking for non-technical reasons",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Servo 0.0.1 Browser Engine Released",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "When It Rains Planning for AWS/Cloud Outages",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "I'm a principal engineer at Microsoft. I barely program anymore",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "A Man Keeping 'The Lost Art' of Neon Glowing [video]",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "Production RAG: what I learned from processing 5M+ documents",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Codex Service Container Helper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "Context Management for Security Log Data",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Trailer manufacturer Wabash's nuclear verdict lawsuit settled",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "Medium Outage",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Maximizers vs. Focusers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "'Phased Out'–Google Confirms Bad News for All 3B Chrome Users",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "Amazon's AWS struggles to recover after major outage disrupts apps, services",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Ask HN: Why is LinkedIn's job search so bad?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "Claude Skills Considered Harmful",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Hitlerism, Trumpism, Netanyahuism, Le M, Macronism",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T17:23:41.379Z"
+  },
+  {
+    "id": "article-1760979535202-yilswpi6t",
+    "timestamp": "2025-10-20T16:58:55.202Z",
+    "articles": [
+      {
+        "position": 1,
+        "page": 1,
+        "title": "Kohler Dekoda – an IoT camera for your toilet",
+        "timeText": "0 minutes ago"
+      },
+      {
+        "position": 2,
+        "page": 1,
+        "title": "Ask HN: Should search platforms harden themselves against false ad claims?",
+        "timeText": "1 minute ago"
+      },
+      {
+        "position": 3,
+        "page": 1,
+        "title": "Reasoning with Sampling: Your Base Model Is Smarter Than You Think",
+        "timeText": "2 minutes ago"
+      },
+      {
+        "position": 4,
+        "page": 1,
+        "title": "Gemini AI Bugshooting Reports",
+        "timeText": "4 minutes ago"
+      },
+      {
+        "position": 5,
+        "page": 1,
+        "title": "Show HN: Cooky – AI recipe parser that turns messy web recipes into clean JSON",
+        "timeText": "5 minutes ago"
+      },
+      {
+        "position": 6,
+        "page": 1,
+        "title": "Show HN: Human replies that sell your product",
+        "timeText": "7 minutes ago"
+      },
+      {
+        "position": 7,
+        "page": 1,
+        "title": "Generalized K-Means Clustering",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 8,
+        "page": 1,
+        "title": "Internet of Trees",
+        "timeText": "8 minutes ago"
+      },
+      {
+        "position": 9,
+        "page": 1,
+        "title": "One Dollar Stats",
+        "timeText": "9 minutes ago"
+      },
+      {
+        "position": 10,
+        "page": 1,
+        "title": "America First? No, Billionaire Buddies First",
+        "timeText": "9 minutes ago"
+      },
+      {
+        "position": 11,
+        "page": 1,
+        "title": "Databases Without an OS? Meet QuinineHM and the New Generation of Data Software",
+        "timeText": "9 minutes ago"
+      },
+      {
+        "position": 12,
+        "page": 1,
+        "title": "Art Appreciation 2525",
+        "timeText": "10 minutes ago"
+      },
+      {
+        "position": 13,
+        "page": 1,
+        "title": "Medium is down, more than 4 hours",
+        "timeText": "11 minutes ago"
+      },
+      {
+        "position": 14,
+        "page": 1,
+        "title": "Postman down. Time to curl again",
+        "timeText": "11 minutes ago"
+      },
+      {
+        "position": 15,
+        "page": 1,
+        "title": "Google Has Killed Privacy Sandbox",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 16,
+        "page": 1,
+        "title": "The Apollo A6000",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 17,
+        "page": 1,
+        "title": "Hacking the World Poker Tour: Inside ClubWPT Gold's Back Office",
+        "timeText": "12 minutes ago"
+      },
+      {
+        "position": 18,
+        "page": 1,
+        "title": "Building AGI Using Language Models",
+        "timeText": "2020) (14 minutes ago"
+      },
+      {
+        "position": 19,
+        "page": 1,
+        "title": "Wired Roundup: Satellites Data Leak, Cybertrucks, Politicized Federal Workers",
+        "timeText": "14 minutes ago"
+      },
+      {
+        "position": 20,
+        "page": 1,
+        "title": "A US startup plans to deliver 'sunlight on demand' after dark. Can it work?",
+        "timeText": "15 minutes ago"
+      },
+      {
+        "position": 21,
+        "page": 1,
+        "title": "David Hockney's Xerox Prints",
+        "timeText": "16 minutes ago"
+      },
+      {
+        "position": 22,
+        "page": 1,
+        "title": "Ask HN: Testing AST or assembly output for a compiler",
+        "timeText": "18 minutes ago"
+      },
+      {
+        "position": 23,
+        "page": 1,
+        "title": "Optimizing LLM Context for Vulnerability Scanning",
+        "timeText": "18 minutes ago"
+      },
+      {
+        "position": 24,
+        "page": 1,
+        "title": "Frugal Living",
+        "timeText": "18 minutes ago"
+      },
+      {
+        "position": 25,
+        "page": 1,
+        "title": "AWS outage exposes Achilles heel: central control plane",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 26,
+        "page": 1,
+        "title": "YC deal size inflation calculator. Including \"unicorn\" adjustment",
+        "timeText": "23 minutes ago"
+      },
+      {
+        "position": 27,
+        "page": 1,
+        "title": "Colin Jost, Pete Davidson and the Staten Island Ferry Fiasco",
+        "timeText": "26 minutes ago"
+      },
+      {
+        "position": 28,
+        "page": 1,
+        "title": "Brain Entrain",
+        "timeText": "40hz mode inspired by MIT Research) (26 minutes ago"
+      },
+      {
+        "position": 29,
+        "page": 1,
+        "title": "Research results are cultural artifacts, not public goods",
+        "timeText": "28 minutes ago"
+      },
+      {
+        "position": 30,
+        "page": 1,
+        "title": "Funny Domain",
+        "timeText": "29 minutes ago"
+      },
+      {
+        "position": 31,
+        "page": 2,
+        "title": "Why I'm not a fan of zero-copy Apache Kafka-Apache Iceberg",
+        "timeText": "30 minutes ago"
+      },
+      {
+        "position": 32,
+        "page": 2,
+        "title": "Japan Unleashes Capitalism by Letting 'Zombie' Companies Die",
+        "timeText": "32 minutes ago"
+      },
+      {
+        "position": 33,
+        "page": 2,
+        "title": "Show HN: Restring – a fast, smart web toolbox for JSON, JWT, Base64, and more",
+        "timeText": "34 minutes ago"
+      },
+      {
+        "position": 34,
+        "page": 2,
+        "title": "Elegy for AWS us-east-1",
+        "timeText": "on guitar) [video] (34 minutes ago"
+      },
+      {
+        "position": 35,
+        "page": 2,
+        "title": "The Human Only Public License",
+        "timeText": "35 minutes ago"
+      },
+      {
+        "position": 36,
+        "page": 2,
+        "title": "Show HN: Wyapy – Capture customer feedback and uncover what to improve",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 37,
+        "page": 2,
+        "title": "Claude for Life Sciences",
+        "timeText": "36 minutes ago"
+      },
+      {
+        "position": 38,
+        "page": 2,
+        "title": "Ask HN: Better Brain Entrainment?",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 39,
+        "page": 2,
+        "title": "Show HN: Excalidraw for Sticky Notes",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 40,
+        "page": 2,
+        "title": "AI and the Art of Persuasion",
+        "timeText": "37 minutes ago"
+      },
+      {
+        "position": 41,
+        "page": 2,
+        "title": "Measuring Engineering Productivity",
+        "timeText": "38 minutes ago"
+      },
+      {
+        "position": 42,
+        "page": 2,
+        "title": "DaoFlow: Not an AWS Wrapper, your bare metal / VM wrapper",
+        "timeText": "40 minutes ago"
+      },
+      {
+        "position": 43,
+        "page": 2,
+        "title": "AWS us-east-1 outage on 2025-10-20: 7% of teams were paged",
+        "timeText": "41 minutes ago"
+      },
+      {
+        "position": 44,
+        "page": 2,
+        "title": "AI will never be your friend",
+        "timeText": "41 minutes ago"
+      },
+      {
+        "position": 45,
+        "page": 2,
+        "title": "Kohler launches smart toilet camera",
+        "timeText": "45 minutes ago"
+      },
+      {
+        "position": 46,
+        "page": 2,
+        "title": "Windows Shell Previews",
+        "timeText": "46 minutes ago"
+      },
+      {
+        "position": 47,
+        "page": 2,
+        "title": "Trump Lists Top Demands on China Before Trade Talks Resume",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 48,
+        "page": 2,
+        "title": "Show HN: Copilot AI Agent",
+        "timeText": "47 minutes ago"
+      },
+      {
+        "position": 49,
+        "page": 2,
+        "title": "Xyne: Open-source LLM-driven search engine for Google Workspace",
+        "timeText": "48 minutes ago"
+      },
+      {
+        "position": 50,
+        "page": 2,
+        "title": "Show HN: Visual autocomplete for drawings",
+        "timeText": "real-time Human-AI interaction) (49 minutes ago"
+      },
+      {
+        "position": 51,
+        "page": 2,
+        "title": "What I Self Host",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 52,
+        "page": 2,
+        "title": "Spin-orbit torque switching of epitaxial ferrimagnetic insulator",
+        "timeText": "50 minutes ago"
+      },
+      {
+        "position": 53,
+        "page": 2,
+        "title": "Building a lightweight ImGui profiler in ~500 lines of C++",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 54,
+        "page": 2,
+        "title": "China is well positioned for a trade showdown with Trump",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 55,
+        "page": 2,
+        "title": "Using Government IDs for Age Assurance",
+        "timeText": "51 minutes ago"
+      },
+      {
+        "position": 56,
+        "page": 2,
+        "title": "NetBox Custom Objects Now GA",
+        "timeText": "52 minutes ago"
+      },
+      {
+        "position": 57,
+        "page": 2,
+        "title": "Duff's Device",
+        "timeText": "53 minutes ago"
+      },
+      {
+        "position": 58,
+        "page": 2,
+        "title": "Creative Destruction",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 59,
+        "page": 2,
+        "title": "Show HN: Unstable Singularity Detector update 1.4.1",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 60,
+        "page": 2,
+        "title": "Show HN: VT Code – Research preview semantic coding agent",
+        "timeText": "54 minutes ago"
+      },
+      {
+        "position": 61,
+        "page": 3,
+        "title": "Building an 11.6lbs Canoe",
+        "timeText": "55 minutes ago"
+      },
+      {
+        "position": 62,
+        "page": 3,
+        "title": "Electromagnetic Radiation from Video Display Units",
+        "timeText": "1985) [pdf] (55 minutes ago"
+      },
+      {
+        "position": 63,
+        "page": 3,
+        "title": "Concierge Care for all: What would it look like?",
+        "timeText": "56 minutes ago"
+      },
+      {
+        "position": 64,
+        "page": 3,
+        "title": "Good Vibes Only",
+        "timeText": "57 minutes ago"
+      },
+      {
+        "position": 65,
+        "page": 3,
+        "title": "Lindenmayer Systems",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 66,
+        "page": 3,
+        "title": "We need to start doing web blocking for non-technical reasons",
+        "timeText": "59 minutes ago"
+      },
+      {
+        "position": 67,
+        "page": 3,
+        "title": "Servo 0.0.1 Browser Engine Released",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 68,
+        "page": 3,
+        "title": "When It Rains Planning for AWS/Cloud Outages",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 69,
+        "page": 3,
+        "title": "I'm a principal engineer at Microsoft. I barely program anymore",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 70,
+        "page": 3,
+        "title": "A Man Keeping 'The Lost Art' of Neon Glowing [video]",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 71,
+        "page": 3,
+        "title": "Production RAG: what I learned from processing 5M+ documents",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 72,
+        "page": 3,
+        "title": "Codex Service Container Helper",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 73,
+        "page": 3,
+        "title": "Context Management for Security Log Data",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 74,
+        "page": 3,
+        "title": "Trailer manufacturer Wabash's nuclear verdict lawsuit settled",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 75,
+        "page": 3,
+        "title": "Medium Outage",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 76,
+        "page": 3,
+        "title": "Maximizers vs. Focusers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 77,
+        "page": 3,
+        "title": "'Phased Out'–Google Confirms Bad News for All 3B Chrome Users",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 78,
+        "page": 3,
+        "title": "Amazon's AWS struggles to recover after major outage disrupts apps, services",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 79,
+        "page": 3,
+        "title": "Ask HN: Why is LinkedIn's job search so bad?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 80,
+        "page": 3,
+        "title": "Claude Skills Considered Harmful",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 81,
+        "page": 3,
+        "title": "Hitlerism, Trumpism, Netanyahuism, Le M, Macronism",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 82,
+        "page": 3,
+        "title": "Bubble, Bubble, Toil and Trouble",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 83,
+        "page": 3,
+        "title": "Spreadsheets: The Second Best Tool for the Job",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 84,
+        "page": 3,
+        "title": "Postman which I thought worked locally on my computer, is down",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 85,
+        "page": 3,
+        "title": "A timetree of Fungi dated with fossils and horizontal gene transfers",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 86,
+        "page": 3,
+        "title": "Can AI Avoid the Enshittification Trap?",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 87,
+        "page": 3,
+        "title": "Show HN: JIT compilation of NES ROMs / 6502 programs to .NET MSIL",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 88,
+        "page": 3,
+        "title": "Birchdocs, my personal docs site",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 89,
+        "page": 3,
+        "title": "Amazon outage takes down Venmo, Ring, Reddit and much of the internet",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 90,
+        "page": 3,
+        "title": "TSMC's dilemma, OpenAI or Oracle, prediction on ambient computing",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 91,
+        "page": 4,
+        "title": "Why and how I rewrote these Obsidian plugins",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 92,
+        "page": 4,
+        "title": "OpenAI is losing about three times more money than it's earning",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 93,
+        "page": 4,
+        "title": "Show HN: Spark Slider – Lightweight React Carousel",
+        "timeText": "12KB, TypeScript) (1 hour ago"
+      },
+      {
+        "position": 94,
+        "page": 4,
+        "title": "MTEB v2: Evaluation of embedding and retrieval systems for more than just text",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 95,
+        "page": 4,
+        "title": "Subretinal Photovoltaic Implant Restores Vision in Geographic Atrophy Due to AMD",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 96,
+        "page": 4,
+        "title": "Multi-Region Deployments with CDK",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 97,
+        "page": 4,
+        "title": "Benefits of Undefined Behavior",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 98,
+        "page": 4,
+        "title": "Show HN: Guardrail Layer – self-hosted AI data layer for secure DB chat",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 99,
+        "page": 4,
+        "title": "AWS Cut Jobs 3 Months Ago",
+        "timeText": "1 hour ago"
+      },
+      {
+        "position": 100,
+        "page": 4,
+        "title": "Apple Pioneer Bill Atkinson Was a Secret Evangelist of the 'God Molecule'",
+        "timeText": "1 hour ago"
+      }
+    ],
+    "metadata": {
+      "totalArticles": 100,
+      "pagesNavigated": 4,
+      "isCorrectlySorted": true,
+      "sortingErrors": []
+    },
+    "createdAt": "2025-10-20T16:58:55.202Z"
+  }
+]
