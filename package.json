@@ -7,7 +7,11 @@
     "start": "node server.js",
     "scrape": "node index.js",
     "dev": "node server.js",
+
+    "test": "playwright test"
+=======
     "test": "node --test"
+
   },
   "keywords": ["playwright", "web-scraping", "hacker-news", "qa", "automation"],
   "author": "",
