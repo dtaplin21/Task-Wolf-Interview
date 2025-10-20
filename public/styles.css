@@ -139,6 +139,133 @@ body {
     margin: 0 auto;
 }
 
+/* Ranked Articles */
+.ranked-articles {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+
+.ranked-articles__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ranked-articles__header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.ranked-articles__sort {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    background-color: var(--surface-color);
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ranked-articles__sort i {
+    color: var(--primary-color);
+}
+
+.ranked-articles__description {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.ranked-articles__loading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.ranked-articles__error {
+    color: var(--error-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.ranked-articles__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.ranked-article-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    background-color: var(--surface-color);
+    box-shadow: var(--shadow);
+}
+
+.ranked-article-rank {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-weight: 700;
+    min-width: 3rem;
+}
+
+.ranked-article-rank i {
+    color: var(--primary-color);
+}
+
+.ranked-article-rank .rank-number {
+    font-size: 1.1rem;
+}
+
+.ranked-article-title {
+    flex: 1;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.ranked-article-title:hover {
+    color: var(--primary-color);
+}
+
+.score-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background-color: rgba(37, 99, 235, 0.1);
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    font-variant-numeric: tabular-nums;
+}
+
+.score-badge i {
+    font-size: 0.875rem;
+}
+
 /* Scraper Controls */
 .scraper-controls {
     display: flex;
@@ -529,21 +656,27 @@ body {
     .header-content {
         padding: 0 1rem;
     }
-    
+
     .main-content {
         padding: 1rem;
     }
-    
+
     .scraper-section {
         padding: 1.5rem;
     }
-    
+
     .scraper-header h2 {
         font-size: 1.5rem;
     }
-    
+
     .scraper-header p {
         font-size: 1rem;
+    }
+
+    .ranked-article-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
     }
 }
 
@@ -551,11 +684,17 @@ body {
     .logo h1 {
         font-size: 1.25rem;
     }
-    
+
     .scraper-header h2 {
         font-size: 1.25rem;
     }
-    
+
+    .ranked-articles__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
     .scrape-button {
         padding: 0.75rem 1rem;
         font-size: 0.875rem;

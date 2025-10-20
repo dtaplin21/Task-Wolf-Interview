@@ -31,6 +31,26 @@
                     <p>Enter any URL below and click scrape to extract data using Playwright. For Hacker News, it will validate that exactly 100 articles are sorted from newest to oldest.</p>
                 </div>
 
+                <section class="ranked-articles" id="rankedArticlesSection" aria-live="polite">
+                    <div class="ranked-articles__header">
+                        <h3>Top Ranked Articles</h3>
+                        <div class="ranked-articles__sort" aria-hidden="true">
+                            <span>Score</span>
+                            <i class="fas fa-arrow-down-short-wide"></i>
+                        </div>
+                    </div>
+                    <p class="ranked-articles__description">
+                        Stay on top of the highest scoring stories gathered by the scraper. Scores are listed from highest to
+                        lowest so you can see which articles are trending.
+                    </p>
+                    <div class="ranked-articles__loading" id="rankedArticlesLoading" role="status">
+                        <i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>
+                        <span>Loading ranked articles...</span>
+                    </div>
+                    <p class="ranked-articles__error" id="rankedArticlesError" role="alert" hidden></p>
+                    <ol class="ranked-articles__list" id="rankedArticlesList"></ol>
+                </section>
+
                 <div class="scraper-controls">
                     <div class="input-group">
                         <label for="targetUrl">Target URL</label>

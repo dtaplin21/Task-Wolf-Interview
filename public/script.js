@@ -4,8 +4,11 @@ class HackerNewsScraper {
         this.initializeElements();
         this.bindEvents();
         this.initializeTheme();
+
         this.activeRankingId = null;
         this.feedbackArticles = [];
+=======
+        this.loadRankedArticles();
     }
 
     /**
@@ -29,6 +32,10 @@ class HackerNewsScraper {
         this.logsContent = document.getElementById('logsContent');
         this.themeToggle = document.getElementById('themeToggle');
         this.presetButtons = document.querySelectorAll('.preset-btn');
+        this.rankedArticlesSection = document.getElementById('rankedArticlesSection');
+        this.rankedArticlesList = document.getElementById('rankedArticlesList');
+        this.rankedArticlesLoading = document.getElementById('rankedArticlesLoading');
+        this.rankedArticlesError = document.getElementById('rankedArticlesError');
     }
 
     /**
@@ -612,6 +619,172 @@ class HackerNewsScraper {
      */
     delay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    /**
+     * Fetch and render ranked articles from the API
+     */
+    async loadRankedArticles() {
+        if (!this.rankedArticlesList) {
+            return;
+        }
+
+        try {
+            this.setRankedLoading(true);
+            this.showRankedError('');
+
+            const response = await fetch('/api/articles/ranked');
+
+            if (!response.ok) {
+                throw new Error(`Unable to load ranked articles (status ${response.status})`);
+            }
+
+            const payload = await response.json();
+            const articles = this.normalizeRankedArticles(payload);
+
+            if (!articles.length) {
+                throw new Error('No ranked articles are available right now.');
+            }
+
+            this.renderRankedArticles(articles);
+        } catch (error) {
+            console.error('Failed to load ranked articles:', error);
+            this.renderRankedArticles([]);
+            this.showRankedError(error.message || 'Failed to load ranked articles.');
+        } finally {
+            this.setRankedLoading(false);
+        }
+    }
+
+    /**
+     * Normalize ranked article payloads from the API
+     * @param {any} payload - Response payload
+     * @returns {Array<Object>} Normalized articles
+     */
+    normalizeRankedArticles(payload) {
+        if (!payload) {
+            return [];
+        }
+
+        if (Array.isArray(payload)) {
+            return payload;
+        }
+
+        if (Array.isArray(payload.articles)) {
+            return payload.articles;
+        }
+
+        if (Array.isArray(payload.data)) {
+            return payload.data;
+        }
+
+        return [];
+    }
+
+    /**
+     * Display or hide the ranked articles loading indicator
+     * @param {boolean} isLoading - Whether ranked articles are loading
+     */
+    setRankedLoading(isLoading) {
+        if (!this.rankedArticlesLoading) {
+            return;
+        }
+
+        this.rankedArticlesLoading.style.display = isLoading ? 'flex' : 'none';
+    }
+
+    /**
+     * Show an error message for the ranked articles section
+     * @param {string} message - Error message to display
+     */
+    showRankedError(message) {
+        if (!this.rankedArticlesError) {
+            return;
+        }
+
+        if (message) {
+            this.rankedArticlesError.textContent = message;
+            this.rankedArticlesError.hidden = false;
+        } else {
+            this.rankedArticlesError.textContent = '';
+            this.rankedArticlesError.hidden = true;
+        }
+    }
+
+    /**
+     * Render the ranked articles list
+     * @param {Array<Object>} articles - Ranked articles
+     */
+    renderRankedArticles(articles) {
+        if (!this.rankedArticlesList) {
+            return;
+        }
+
+        this.rankedArticlesList.innerHTML = '';
+
+        if (!articles.length) {
+            return;
+        }
+
+        articles.forEach((article, index) => {
+            const listItem = document.createElement('li');
+            listItem.className = 'ranked-article-item';
+
+            const rank = document.createElement('div');
+            rank.className = 'ranked-article-rank';
+
+            const rankNumber = document.createElement('span');
+            rankNumber.className = 'rank-number';
+            rankNumber.textContent = `${index + 1}`;
+
+            const rankIcon = document.createElement('i');
+            rankIcon.className = 'fas fa-arrow-down-wide-short';
+            rankIcon.setAttribute('aria-hidden', 'true');
+
+            rank.append(rankNumber, rankIcon);
+
+            const titleLink = document.createElement('a');
+            titleLink.className = 'ranked-article-title';
+            titleLink.textContent = article.title || `Article ${index + 1}`;
+            if (article.url) {
+                titleLink.href = article.url;
+                titleLink.target = '_blank';
+                titleLink.rel = 'noopener noreferrer';
+            } else {
+                titleLink.href = '#';
+            }
+
+            const scoreBadge = document.createElement('span');
+            scoreBadge.className = 'score-badge';
+            const scoreValue = this.resolveArticleScore(article);
+            scoreBadge.setAttribute('aria-label', `Article score ${scoreValue}`);
+
+            const scoreIcon = document.createElement('i');
+            scoreIcon.className = 'fas fa-star';
+            scoreIcon.setAttribute('aria-hidden', 'true');
+
+            const scoreText = document.createElement('span');
+            scoreText.className = 'score-value';
+            scoreText.textContent = `${scoreValue}`;
+
+            scoreBadge.append(scoreIcon, scoreText);
+
+            listItem.append(rank, titleLink, scoreBadge);
+            this.rankedArticlesList.appendChild(listItem);
+        });
+    }
+
+    /**
+     * Resolve the score value from an article object
+     * @param {Object} article - Article entry
+     * @returns {string|number}
+     */
+    resolveArticleScore(article) {
+        const score = article?.score ?? article?.points ?? article?.value;
+        if (score === undefined || score === null || score === '') {
+            return 'N/A';
+        }
+        return score;
     }
 }
 
