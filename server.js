@@ -3,12 +3,21 @@ const express = require('express');
 const path = require('path');
 const { spawn } = require('child_process');
 
+const authenticateRequest = require('./middleware/authenticate');
+const { rateLimitMiddleware } = require('./middleware/rateLimit');
+const articleScoringService = require('./services/articleScoringService');
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use((req, res, next) => {
+    req.requestId = req.get('x-request-id') || `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    next();
+});
 
 /**
  * Serve the main HTML page
@@ -92,6 +101,49 @@ app.post('/api/scrape', async (req, res) => {
         res.status(500).json({
             success: false,
             error: error.message
+        });
+    }
+});
+
+/**
+ * API endpoint to score and rank articles using the article scoring service
+ */
+app.post('/api/articles/score', authenticateRequest, rateLimitMiddleware, async (req, res) => {
+    try {
+        const { articles } = req.body || {};
+
+        if (!Array.isArray(articles) || articles.length === 0) {
+            return res.status(400).json({
+                success: false,
+                error: 'Invalid request payload',
+                details: 'The request body must include a non-empty "articles" array.'
+            });
+        }
+
+        const rankedArticles = await articleScoringService.rankArticles(articles, { requestId: req.requestId });
+
+        const serializedResults = rankedArticles.map((article) => ({
+            title: article.title || '',
+            summary: article.summary || '',
+            helpfulnessScore: typeof article.helpfulnessScore === 'number'
+                ? Number(article.helpfulnessScore)
+                : 0
+        }));
+
+        return res.json({
+            success: true,
+            results: serializedResults,
+            requestId: req.requestId
+        });
+    } catch (error) {
+        const statusCode = error instanceof articleScoringService.ArticleScoringServiceError && error.statusCode
+            ? error.statusCode
+            : (error.statusCode || 502);
+
+        return res.status(statusCode).json({
+            success: false,
+            error: error.message || 'Failed to score articles',
+            requestId: req.requestId
         });
     }
 });
@@ -194,13 +246,33 @@ app.get('/api/health', (req, res) => {
     });
 });
 
-/**
- * Start the server
- */
-app.listen(PORT, () => {
-    console.log(`🚀 Hacker News Scraper server running on http://localhost:${PORT}`);
-    console.log(`📊 API endpoint available at http://localhost:${PORT}/api/scrape`);
-    console.log(`🏥 Health check available at http://localhost:${PORT}/api/health`);
-});
+let serverInstance = null;
+
+function startServer(port = PORT) {
+    if (serverInstance) {
+        return serverInstance;
+    }
+
+    serverInstance = app.listen(port, () => {
+        console.log(`🚀 Hacker News Scraper server running on http://localhost:${port}`);
+        console.log(`📊 API endpoint available at http://localhost:${port}/api/scrape`);
+        console.log(`🏥 Health check available at http://localhost:${port}/api/health`);
+    });
+
+    return serverInstance;
+}
+
+function stopServer() {
+    if (serverInstance) {
+        serverInstance.close();
+        serverInstance = null;
+    }
+}
+
+if (require.main === module) {
+    startServer();
+}
 
 module.exports = app;
+module.exports.startServer = startServer;
+module.exports.stopServer = stopServer;
